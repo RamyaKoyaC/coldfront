@@ -62,9 +62,9 @@ Open config/local_settings.py and update the following:
 * Update `SECRET_KEY`. Consider making the length at least 50 characters long. 
 * Uncomment the CENTER_NAME
 * Uncomment the following and fill in them some dummy values:
-EMAIL_ADMIN_LIST
-EMAIL_DIRECTOR_PENDING_PROJECT_REVIEW_EMAIL
-EMAIL_DIRECTOR_EMAIL_ADDRESS
+EMAIL_ADMIN_LIST ,
+EMAIL_DIRECTOR_PENDING_PROJECT_REVIEW_EMAIL ,
+EMAIL_DIRECTOR_EMAIL_ADDRESS 
 * Update `TIME_ZONE` if necessary
 
 
