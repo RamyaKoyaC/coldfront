@@ -55,6 +55,7 @@ pip install -r requirements.txt
 
 4. Copy config/local_settings.py.sample to config/local_settings.py. 
 ```
+cd coldfront
 cp config/local_settings.py.sample config/local_settings.py
 ```
 Open config/local_settings.py and update the following:
@@ -69,6 +70,7 @@ cp config/local_strings.py.sample config/local_strings.py
 
 6. Run initial setup
 ```
+cd ..
 python manage.py initial_setup
 ```
 
